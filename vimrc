@@ -9,7 +9,7 @@ let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowTo
 
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-json', 'coc-git','coc-clangd','coc-cmake','coc-sh','coc-sql','coc-highlight','coc-pairs','coc-snippets','coc-pyright','coc-vimlsp']
+let g:coc_global_extensions = ['coc-json', 'coc-git','coc-clangd','coc-cmake','coc-sh','coc-sql','coc-highlight','coc-pairs','coc-snippets','coc-pyright','coc-vimlsp','coc-sqlfluff']
 autocmd CursorHold * silent call CocActionAsync('highlight') " enable 'coc-highlight'
 
 
